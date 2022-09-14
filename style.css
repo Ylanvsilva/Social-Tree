@@ -119,5 +119,19 @@
 /** Media Queries */
 
 @media (max-width: 768px) {
-    
+    .mask {
+        width: 170px;
+        height: 170px;
+    }
+
+    .mask img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 320px) {
+    .link {
+        width: 75%;
+    }
 }
